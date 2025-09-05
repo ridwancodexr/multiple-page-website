@@ -9,6 +9,7 @@ nav{
     justify-content: space-between;
     background-color: #1A1244;
     padding: 10px 200px ;
+    border-bottom:4px solid #401E63;
     
 }
 nav ul{
@@ -34,4 +35,26 @@ nav ul li a:hover{
 nav div{
     color: white;
     font-size: 20px;
+}
+
+
+/* Hero area code start here  */
+header{
+background-image: url(photo/website\ banner.jpg);
+padding: 200px 0;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.searchBox-icon-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchBox-icon-parent input{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px 20px ;
 }
