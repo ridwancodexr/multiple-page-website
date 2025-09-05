@@ -58,3 +58,36 @@ background-size: cover;
     font-size: 20px;
     padding: 5px 20px ;
 }
+
+/* Main Section Code Start  */
+
+main{
+    background-color: #2d236A;
+    padding-top: 20px;
+}
+#main-section{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+#latest-video-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.latest-video-text{
+    font-size: 25px;
+    color: #04AA6D;
+    font-weight: bold;
+}
+.latest-pages{
+    color: #04AA6D;
+}
+.latest-pages span{
+    color: black;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 0 10px;
+    border: 1px solid rgb(109, 98, 98);
+    cursor: pointer;
+}
